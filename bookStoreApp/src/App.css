@@ -1,0 +1,147 @@
+header{
+  display: flex;
+  justify-content: center;
+  font-size: xx-large;
+}
+
+/* components */
+.card{
+  margin: 5px;
+  border: 1px solid blue;
+  padding: 5px;
+}
+.card-row{
+  display: flex;
+  justify-content: space-between;
+  margin: 0 5px 5px 5px;
+}
+.card-label{
+  width: 15%;  
+  margin-right: 15px;
+}
+.card-data{
+  width: 85%;  
+  padding: 5px 10px;
+  border-radius: 6px;
+}
+.button-style1{
+  background-color: #00032f;
+  color: white;
+  padding: 5px 10px;
+  font-size: 1.1em;
+  border: none;
+  border-radius: 4px;
+  margin-bottom: 5px;
+}
+.button-style1:hover{
+  background-color: #282e78;
+}
+/* components end */
+
+.pagination-block{
+  width: 50%;
+  padding: 2px 30px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+.page-button{
+  width: 10em;
+  height: 2em;
+  font-size: large;
+}
+.page-label{
+  font-size: large;
+}
+.item-button{
+  margin: 5px 20px;
+  padding: 2px 10px;
+  background-color: black;
+  color: wheat;
+}
+.book-title{
+  color:crimson;
+  font-size: 1.4em;
+}
+.accordion{
+  margin-top: 5px;
+}
+.review-box{
+  display: flex;
+  justify-content: space-between;
+  margin: 0 5px 5px 5px;  
+}
+.review-name{
+  width: 15%;
+  /* border: 1px solid gray; */
+  margin-right: 15px;
+}
+.review-body{
+  width: 85%;
+  border: 1px solid gray;
+  padding: 5px 10px;
+  border-radius: 6px;
+  background-color: white;
+}
+
+/* Add new */
+.add-new{
+  margin: 5px;
+}
+.form-div{
+  margin: 10px 20px;
+}
+.form-row{
+  display: flex;
+  justify-content: space-between;
+  margin: 0 5px 5px 5px;
+}
+.form-label{
+  width: 15%;  
+  margin-right: 15px;
+}
+.form-input{
+  width: 85%;
+  border: 1px solid gray;
+  padding: 5px 10px;
+  border-radius: 6px;
+}
+.form-select{
+  width: 20%;
+  border: 1px solid gray;
+  padding: 5px 10px;
+  border-radius: 6px;
+  margin-right: 65%;
+}
+.form-center-label{  
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5px;  
+}
+.form-button-panel{
+  display: flex;
+  justify-content: space-around;
+  margin: 10px 50px;
+}
+.form-button-panel>button{
+  font-size: 1.3em;
+  padding: 5px 30px;
+  border-radius: 20px;
+  border: none;
+  color: whitesmoke
+}
+.form-button-panel>button:hover{
+  cursor: pointer;
+}
+.button-cancel{
+  background-color: red;
+}
+.button-cancel:hover{
+  background-color: rgb(241, 77, 77);
+}
+.button-submit{
+  background-color: #00032f;
+}
+.button-submit:hover{
+  background-color: #282e78;
+}
